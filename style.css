@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, Helvetica, sans-serif; /* Start with font you want, fall back on generic fonts in case user system doesn't support it */
+    background-color: rgb(57, 51, 48);
+  }
+  
+  
+  .header {
+    padding: 80px; /* some padding */
+    text-align: center; /* center the text */
+    background: #7a9be3; 
+    color: white; 
+  }
+  
+  /* Increase the font size of the <h1> element */
+  .header h1 {
+    font-size: 40px;
+  }
+  
+  .navbar {
+    overflow: hidden; /* Hide overflow */
+    background-color: #5b4f4f; /* Dark background color */
+  }
+
+  .navbar ul {
+    padding: 0;
+    text-align: center;
+  }
+
+  .navbar li{
+    display: inline-block;
+  }
+
+  .navbar a {
+    color: white;
+    display: inline; /* block takes up the whole line, inline takes up the minimum of space but width and height cannot be adjusted, inline-block takes minimum space but width and height can be adjusted, none will make it disappear */
+  }
+
+  .navbar a:hover {
+    background-color: #6937cf; 
+    color: white; 
+  }
